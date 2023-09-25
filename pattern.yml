@@ -1,29 +1,25 @@
-metadata:
-  pattern-id: onp.base.template
-  pattern-name: base-template
-  organisation-id: demobank
-  pattern-version: 1.0.0
-  pattern-description: some description here
-  pattern-categories: 
-              - bootstrap
-
 lifecycle:
   create:
     commands:
-      - bash lifecycle/create.sh
-
+    - bash lifecycle/create.sh
   delete:
     commands:
-      - bash lifecycle/delete.sh
-
+    - bash lifecycle/delete.sh
   update:
     commands:
-      - bash lifecycle/update.sh
-
+    - bash lifecycle/update.sh
   upgrade:
     commands:
-      - bash lifecycle/upgrade.sh
-
-dependencies:
-
-
+    - bash lifecycle/upgrade.sh
+metadata:
+  organisation-id: demobank
+  pattern-categories:
+  - Other
+  pattern-description: Intakes customer disputes and notifies BaaS Platform Provider
+    of card-related claims and provides BaaS Platform Provider all information and
+    any documentation provided by the customer. Intakes customer disputes and notifies
+    Bank of ACH and ATM-related claims and provides Bank all information and any documentation
+    provided by the customer
+  pattern-id: onp.Fintech.intakes.customer.disputes
+  pattern-name: Fintech intakes customer disputes
+  pattern-version: 1.0.0
