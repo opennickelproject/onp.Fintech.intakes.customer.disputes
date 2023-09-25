@@ -1,4 +1,3 @@
-dependencies: null
 lifecycle:
   create:
     commands:
@@ -13,7 +12,7 @@ lifecycle:
     commands:
     - bash lifecycle/upgrade.sh
 metadata:
-  organisation-id: onp
+  organisation-id: demobank
   pattern-categories:
   - Other
   pattern-description: Intakes customer disputes and notifies BaaS Platform Provider
